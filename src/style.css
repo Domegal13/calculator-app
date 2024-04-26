@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply cursor-pointer h-12 shadow-[0_5px_0_0px] rounded-lg hover:scale-95 hover:transition-all;
+}
+
+.theme1 {
+  @apply bg-[#3a4764];
+}
+.bg-keys1 {
+  @apply bg-[#232c43];
+}
+.display1 {
+  @apply bg-[#182034];
+}
+.btn-gray {
+  @apply bg-[#637097] text-white shadow-[#404e72] hover:bg-[#404e72] text-xl;
+}
+.btn-red {
+  @apply text-white text-xl text-center bg-[#d03f2f] hover:bg-[#93261a] shadow-[#93261a] rounded-md cursor-pointer h-12;
+}
+.btn-white {
+  @apply bg-[#eae3dc] shadow-[#b4a597] hover:bg-[#b4a597];
+}
+.txt-gray {
+  @apply text-[#444b5a];
+}
+
+.theme2 {
+  @apply bg-[#e6e6e6];
+}
+.bg-keys2 {
+  @apply bg-[#d1cccc];
+}
+.display2 {
+  @apply bg-[#ededed];
+}
+.btn-cyan2 {
+  @apply bg-[#377f86] text-white shadow-[#1b5f65] hover:bg-[#1b5f65] text-xl;
+}
+.btn-orange {
+  @apply text-white text-xl text-center bg-[#ca5502] hover:bg-[#893901] shadow-[#893901] rounded-md cursor-pointer h-12;
+}
+.btn-white2 {
+  @apply bg-[#e5e4e1] shadow-[#a69d91] hover:bg-[#a69d91];
+}
+.txt-yellow-gray {
+  @apply text-[#35352c];
+}
+
+.theme3 {
+  @apply bg-[#160628];
+}
+.bg-keys3 {
+  @apply bg-[#1d0934];
+}
+.display3 {
+  @apply bg-[#1d0934];
+}
+.btn-violet {
+  @apply text-white text-xl text-center bg-[#58077d] hover:bg-[#bc15f4] shadow-[#bc15f4] rounded-md cursor-pointer h-12;
+}
+.btn-cyan3 {
+  @apply bg-[#00e0d1] text-white shadow-[#6cf9f2] hover:bg-[#6cf9f2] text-xl;
+}
+.btn-dark-violet {
+  @apply bg-[#341c4f] shadow-[#871c9c] hover:bg-[#871c9c];
+}
+.txt-yellow {
+  @apply text-[#ffe53d];
+}
+.txt-dark-blue {
+  @apply text-[#1b2428];
+}
